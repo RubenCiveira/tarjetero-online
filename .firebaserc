@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tarjetero-online": {
+      "hosting": {
+        "tarjetero-online": [
+          "tarjetero-online"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tarjetero-online"
+  }
+}

@@ -103,8 +103,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "tarjetero-online:build:production",
+            "firebaseProject": "tarjetero-online",
+            "firebaseHostingSite": "tarjetero-online"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

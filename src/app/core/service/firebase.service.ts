@@ -21,6 +21,8 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
+console.log("VAMOS A VER CON ", app);
+
 @Injectable({ providedIn: 'root' })
 export class FirebaseService {
 

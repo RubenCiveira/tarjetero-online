@@ -1,0 +1,5 @@
+<p *ngIf="isLogged; else loggedOff">Hola {{ userData?.displayName }}</p>
+<ng-template #loggedOff>
+    <h1>No login</h1>
+    <button (click)="loginWithGoogle()">Google</button>
+</ng-template>
